@@ -6,8 +6,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <!-- Bootstrap CSS -->
+    <!-- Bootstrap CSS from CDN -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <!-- Bootstrap CSS from local file -->
+    <link rel="stylesheet" href="css/styles.css">
     <title>Le Chocolat</title>
 </head>
 
@@ -15,34 +17,36 @@
 
     <header class="jumbotron">
         <div class="container">
-            <div class="row">
+            <div class="row row-header">
                 <div class="col-12 col-sm-8">
                     <h1>Le Chocolat</h1>
                     <p>We combine experience with creativity to create innovative tastes based on classic chocolate
                         recipes. Our creations will travel you in the chocolate world!</p>
                 </div>
-                
-                <div class="col col-sm"> 
+
+                <div class="col col-sm">
                     <p>Logo goes here</p>
-                </div> 
+                </div>
             </div>
         </div>
     </header>
 
     <div class="container">
         <!--First row-->
-        <div class="row">
+        <div class="row flex-row-reverse row-content align-items-center">
             <div class="col-sm-4 col-md-3">
                 <h3>Our famous chocolates</h3>
             </div>
-            <div class="col-sm col-md">  <!-- This particular content will occupy whatever is left out, 8 or 9 cols -->
+            <div class="col-sm col-md">
+                <!-- This particular content will occupy whatever is left out, 8 or 9 cols -->
                 <h2>85% DARK CHOCOLATE</h2>
                 <p>Dark chocolate with no added sugar. Here you can taste the flavor of cocoa beans.</p>
             </div>
         </div>
 
         <!--Second row-->
-        <div class="row">
+        <!--Vertically align the rows-->
+        <div class="row row-content align-items-center">
             <div class="col-sm-4 col-md-3">
                 <h3>WEEK’S OFFER</h3>
             </div>
@@ -53,7 +57,7 @@
         </div>
 
         <!--Third row-->
-        <div class="row">
+        <div class="row flex-row-reverse row-content align-items-center">
             <div class="col-sm-4 col-md-3">
                 <h3>Meet our Specialists</h3>
             </div>
@@ -66,18 +70,20 @@
         </div>
     </div>
 
-    <footer>
+    <footer class="footer">
         <div class="container">
             <div class="row">
+                <!--Menu footer column-->
                 <div class="col-5 offset-1 col-sm-2">
                     <h5>Links</h5>
-                    <ul>
+                    <ul class="list-unstyled">
                         <li><a href="#">Home</a></li>
                         <li><a href="#">About</a></li>
                         <li><a href="#">Menu</a></li>
                         <li><a href="#">Contact</a></li>
                     </ul>
                 </div>
+                <!--Address footer column-->
                 <div class="col-6 col-sm-5">
                     <h5>Our Address</h5>
                     <address>
@@ -89,8 +95,10 @@
                         Email: <a href="mailto:chocolat@nomail.net">chocolat@nomail.net</a>
                     </address>
                 </div>
-                <div class="col col-sm-4">
-                    <div>
+                <!--Horizontally align the column in footer-->
+                <!--Social links footer column-->
+                <div class="col col-sm-4 align-self-center">
+                    <div style="text-align:center">
                         <a href="http://google.com/+">Google+</a>
                         <a href="http://www.facebook.com/profile.php?id=">Facebook</a>
                         <a href="http://www.linkedin.com/in/">LinkedIn</a>
@@ -101,8 +109,11 @@
                 </div>
             </div>
             <div>
-                <div class="col-auto">
-                    <p> &copy; Copyright 2018 Le Chocolat</p>
+                <!--Copyright paragraph-->
+                <div class="row justify-content-center">
+                    <div class="col-auto">
+                        <p> &copy; Copyright 2018 Le Chocolat</p>
+                    </div>
                 </div>
             </div>
         </div>
