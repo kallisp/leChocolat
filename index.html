@@ -42,21 +42,21 @@
 
     <header class="jumbotron">
         <div class="container">
-            <div class="row row-header">
-                <div class="col-12 col-sm-8">
+            <div class="row row-header align-items-center">
+                <div class="col-12 col-sm-6">
                     <h1>Le Chocolat</h1>
                     <p>We combine experience with creativity to create innovative tastes based on classic chocolate
                         recipes. Our creations will travel you in the chocolate world!</p>
                 </div>
 
-                <div class="col col-sm">
+                    <div class="col col-sm-3">
                         <img src="images/logo.png" class="img-fluid">
-                    <!-- <div class="col">
-                        <button class="btn btn-warning btn-sm" type="submit">Reserve your baskets</button>
-                        </div> -->
+                    </div>
+                    <div class="col col-sm-3">                      
+                        <a href="#basket"><button class="btn btn-warning btn-sm" type="submit">Reserve your baskets</button></a>
+                    </div>
                 </div>
             </div>
-        </div>
     </header>
 
     <div class="container">
@@ -118,7 +118,7 @@
             </div>
         </div>
     </div>
-    <div class="row row-content justify-content-center">
+    <div class="row row-content justify-content-center" id="basket">
         <div class="col-12 col-md-8">
             <div class="card">
                 <h4 class="card-header text-white bg-warning mb-3"><strong>Reserve your baskets</strong> </h4>
@@ -166,8 +166,8 @@
                                 <div class="col">
                                     <div class="input-group-prepend">
                                         <span class="input-group-text" id="basic-addon1"><i class="fa fa-calendar"
-                                                aria-hidden="true"></i></span>
-                                        <input type="text" class="form-control" placeholder="dd----yyyy" aria-label="date"
+                                            aria-hidden="true"></i></span>
+                                        <input type="date" class="form-control" aria-label="date"
                                             aria-describedby="basic-addon1">
                                     </div>
                                 </div>
@@ -175,7 +175,7 @@
                                     <div class="input-group-prepend">
                                         <span class="input-group-text" id="basic-addon2"><i class="fa fa-clock-o"
                                                 aria-hidden="true"></i></span>
-                                        <input type="text" class="form-control" placeholder="--:-- --" aria-label="time"
+                                        <input type="time" class="form-control" aria-label="time"
                                             aria-describedby="basic-addon2">
                                     </div>
                                 </div>
