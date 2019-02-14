@@ -39,3 +39,10 @@ body{
     background-color:#6E3F19
 }
 tr:hover {background-color:#dbb08db0!important} /*Pseudo class*/
+
+.tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+  }
