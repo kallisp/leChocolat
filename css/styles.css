@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css?family=NTR');
+
 .row-header{
     margin:0px auto;
     padding:0px;
@@ -70,4 +73,129 @@ tr:hover {background-color:#dbb08db0!important} /*Pseudo class*/
     right:0px;
     position: absolute;
     bottom: 0px;
+}
+
+ .single_special h2 {
+    text-align: center;
+    font-family: 'NTR', sans-serif;
+    font-size: 35px;
+} 
+
+.mb-60 {
+	margin-bottom: 60px;
+}
+.mt-60 {
+	margin-top: 60px;
+}
+ul {
+	margin: 0px;
+	padding: 0px;
+	list-style:none
+}
+.special_menu .section-title {
+	margin-bottom: 70px;
+}
+.section-title h4 {
+	font-size: 40px;
+	text-transform: capitalize;
+	color: #FF5E18;
+	position: relative;
+	display: inline-block;
+	padding-bottom: 25px;
+}
+
+.section-title p {
+	font-size: 24px;
+	font-family: Oleo Script;
+	margin-bottom: 0px;
+}
+
+.section-title h4:before,
+.section-title h4:after {
+	position: absolute;
+	content: "";
+	background-color: #FF5E18;
+}
+
+.section-title h4:before {
+	width: 80px;
+	height: 1.5px;
+	bottom: 0;
+	left: 50%;
+	margin-left: -40px;
+}
+
+.section-title h4:after {
+	width: 40px;
+	height: 1.5px;
+	bottom: -5px;
+	left: 50%;
+	margin-left: -20px;
+}
+.special_menu .section-title {
+	margin-bottom: 50px;
+}
+
+.section-title h2{
+    font-family: 'NTR', sans-serif;
+    font-size: 45px;
+    font-weight: 500;
+}
+.single_special img {
+	width: 100%;
+	border: 1px solid #ddd;
+	padding: 3px;
+	margin-bottom: 20px;
+}
+
+.set_menu li span {
+	float: right;
+	color: #FF5E18;
+}
+
+.set_menu li {
+	font-size: 15px;
+	margin-bottom: 10px;
+}
+
+.total {
+	border-top: 1px dotted #333;
+	margin-top: 12px;
+	padding-top: 5px;
+}
+
+.single_menu_list {
+	position: relative;
+	padding-left: 190px;
+	margin-bottom: 110px;
+}
+
+.single_menu_list img {
+	max-width: 30%;
+	position: absolute;
+	left: 0px;
+	top: 0;
+	border: 1px solid #ddd;
+	padding: 3px;
+	border-radius: 50%;
+	transition: .4s
+}
+
+.single_menu_list:hover img {
+	border-radius: 0;
+	transition: .4s
+}
+
+.single_menu_list h4 {
+	font-size: 20px;
+	border-bottom: 1px dashed #333;
+	padding-bottom: 15px;
+	margin-bottom: 10px;
+}
+
+.single_menu_list h4 span {
+	float: right;
+	font-weight: bold;
+	color: #FF5E18;
+	font-style: italic;
 }
